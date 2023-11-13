@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Add Swiper CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <style>
+        /* Your existing styles go here */
+    </style>
+    <link rel="stylesheet" href="style.css">
+    <title>Gadget Tips Slider</title>
+</head>
+<body>
+    <section>
+        <div class="gadget-tips">
+            <div class="flex">
+                <h2 class="section__title">Easy D-I-Y Gadget Tips</h2>
+                <p>View All</p>
+            </div>
+            <div class="swiper-container gadget-scroll">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide scroll">
+                        <!-- Your first gadget tip content goes here -->
+                        <div class="scroll-contain">
+
+                                    <div class="scroll-img">
+                                        <img src="./assets/img/Slant Iphone Image.png" alt="iphone">
+                                    </div>
+
+                                    <div class="scroll-content">
+                                        <h4>Troubleshooting Iphones</h4>
+                                        <p>You can troubleshoot your Iphone using <br> these steps.</p>
+                                        <button class="sec-btn">Read More</button>
+                                    </div>
+                    
+                                </div>
+                    </div>
+                    <div class="swiper-slide scroll">
+                        <!-- Your second gadget tip content goes here -->
+                        <div class="scroll-contain">
+
+                                    <div class="scroll-img">
+                                        <img src="./assets/img/Slant Iphone Image.png" alt="iphone">
+                                    </div>
+
+                                    <div class="scroll-content">
+                                        <h4>Troubleshooting Iphones</h4>
+                                        <p>You can troubleshoot your Iphone using <br> these steps.</p>
+                                        <button class="sec-btn">Read More</button>
+                                    </div>
+                    
+                                </div>
+                    </div>
+                    <div class="swiper-slide scroll">
+                        <!-- Your third gadget tip content goes here -->
+                        <div class="scroll-contain">
+
+                                    <div class="scroll-img">
+                                        <img src="./assets/img/Slant Iphone Image.png" alt="iphone">
+                                    </div>
+
+                                    <div class="scroll-content">
+                                        <h4>Troubleshooting Iphones</h4>
+                                        <p>You can troubleshoot your Iphone using <br> these steps.</p>
+                                        <button class="sec-btn">Read More</button>
+                                    </div>
+                    
+                                </div>
+                    </div>
+                    <div class="swiper-slide scroll">
+                        <!-- Your third gadget tip content goes here -->
+                        <div class="scroll-contain">
+
+                                    <div class="scroll-img">
+                                        <img src="./assets/img/Slant Iphone Image.png" alt="iphone">
+                                    </div>
+
+                                    <div class="scroll-content">
+                                        <h4>Troubleshooting Iphones</h4>
+                                        <p>You can troubleshoot your Iphone using <br> these steps.</p>
+                                        <button class="sec-btn">Read More</button>
+                                    </div>
+                    
+                                </div>
+                    </div>
+                    <div class="swiper-slide scroll">
+                        <!-- Your third gadget tip content goes here -->
+                        <div class="scroll-contain">
+
+                                    <div class="scroll-img">
+                                        <img src="./assets/img/Slant Iphone Image.png" alt="iphone">
+                                    </div>
+
+                                    <div class="scroll-content">
+                                        <h4>Troubleshooting Iphones</h4>
+                                        <p>You can troubleshoot your Iphone using <br> these steps.</p>
+                                        <button class="sec-btn">Read More</button>
+                                    </div>
+                    
+                                </div>
+                    </div>
+
+                    <!-- Add more slides as needed -->
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Add Navigation -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Add Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper('.gadget-scroll', {
+            slidesPerView: 3,
+            spaceBetween: 50,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+        });
+    </script>
+</body>
+</html>
+
